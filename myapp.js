@@ -8,9 +8,9 @@ for( let index = 0; index < elements.length; index++ ){
 
 function set(){
 
-    let cssProperty = event.target.getAttribute('id');
+    let cssProperty = events.target.getAttribute('id');
         
-    let cssValue = event.target.value;
+    let cssValue = events.target.value;
 
     div.style[ cssProperty ] = cssValue;
 }
